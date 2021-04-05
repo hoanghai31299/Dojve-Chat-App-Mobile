@@ -26,7 +26,7 @@ $ npm install
 # Run
 
 ```bash
-$ npm start
+$ npx react-native run-android || $ yarn android
 ```
 
 # Mentor
