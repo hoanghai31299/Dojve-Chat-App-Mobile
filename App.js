@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
 
 const customProps = {style: styles.defaultFontFamily};
 
-
 function setDefaultFontFamily() {
   const TextRender = Text.render;
   const initialDefaultProps = Text.defaultProps;

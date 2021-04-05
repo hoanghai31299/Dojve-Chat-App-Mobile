@@ -36,20 +36,14 @@ import { logger } from '../../../utils/common';
 
 class CometChatGroupList extends React.Component {
   timeout;
-
   passwordScreen = null;
-
   loggedInUser = null;
-
   decoratorMessage = 'Loading...';
-
   addIcon = (<Icon2 name="edit" size={24} color={theme.color.blue} />);
-
   createGroup = this.addIcon;
 
   constructor(props) {
     super(props);
-
     this.state = {
       grouplist: [],
       createGroup: false,
@@ -61,9 +55,8 @@ class CometChatGroupList extends React.Component {
       groupType: null,
       passwordFeedback: null,
     };
-    this.groupListRef = React.createRef(null); //group list
+    this.groupListRef = React.createRef(null);
     this.theme = { ...theme, ...this.props.theme };
-
     this.textInputRef = React.createRef(null);
   }
 
@@ -124,9 +117,7 @@ class CometChatGroupList extends React.Component {
           const { groupToLeave } = this.props;
           const groupObj = { ...groups[groupKey] };
           const membersCount = parseInt(groupToLeave.membersCount) - 1;
-
           const newGroupObj = { ...groupObj, membersCount, hasJoined: false };
-
           groups.splice(groupKey, 1, newGroupObj);
           this.setState({ grouplist: groups });
         }
