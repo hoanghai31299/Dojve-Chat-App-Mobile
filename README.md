@@ -2,7 +2,7 @@
 mobile part of Dojve
 # Descriptions
 
-Last project in Duy Tan university
+Last project in Duy Tan university with ***my bros***
 Building chat app name "Dojve" means a dove with dấu nặng - symbol of the way to chat in the old days
 
 # Technologies
