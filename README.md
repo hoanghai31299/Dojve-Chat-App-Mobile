@@ -40,4 +40,4 @@ $ npx react-native run-android || $ yarn android
 - Cao Quang Uy Vũ
 - Trương Văn Thiết
 ## License
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The React-Native framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
