@@ -39,3 +39,5 @@ $ npx react-native run-android || $ yarn android
 - Tưởng Văn Linh
 - Cao Quang Uy Vũ
 - Trương Văn Thiết
+## License
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
