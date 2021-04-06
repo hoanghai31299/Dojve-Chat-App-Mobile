@@ -217,4 +217,13 @@ task copyDownloadableDepsToLibs(type: Copy) {
     into 'libs'
 }
 
+dependencies {
+  implementation "androidx.multidex:multidex:2.0.1"
+}
+android {
+    defaultConfig {
+        multiDexEnabled true
+    }
+}
+
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

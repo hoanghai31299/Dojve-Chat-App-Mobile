@@ -18,12 +18,9 @@ import {
 
 function StackNavigator(props) {
   const Stack = createStackNavigator();
-
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        headerMode="none"
-        initialRouteName={props.isLoggedIn}>
+      <Stack.Navigator headerMode="none" initialRouteName={props.isLoggedIn}>
         <Stack.Screen name="LoginPage" component={LoginPage} />
         <Stack.Screen name="CometChatUI" component={CometChatUI} />
         <Stack.Screen
