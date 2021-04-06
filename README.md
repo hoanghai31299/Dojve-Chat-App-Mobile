@@ -40,4 +40,5 @@ $ npx react-native run-android || $ yarn android
 - Cao Quang Uy Vũ
 - Trương Văn Thiết
 ## License
-The React-Native framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+In September 2017, Facebook announced that React would become **MIT Licensed (React License)**. This became a reality on February 16, 2018, which means all products related to React are now under MIT License. These include **React, Jest, Flow, Immutable, Fresco, React Native, Metro, and Yoga**. This was a great improvement for the adoption of the React Platform in the development community. Before this change, many startups and companies were reluctant to adopt a development framework owned by Facebook under the BSD+Patents License.
+[MIT license](https://opensource.org/licenses/MIT).
